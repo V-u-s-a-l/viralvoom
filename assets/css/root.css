@@ -1,0 +1,153 @@
+/*-----------------------------------*\
+  #style.css
+\*-----------------------------------*/
+
+:root {
+
+  /**
+   * colors
+   */
+
+  --bright-yellow-crayola: hsl(40, 100%, 50%);
+  --medium-turquoise: hsl(172, 48%, 59%);
+ 
+  --eerie-black-1: hsl(0, 0%, 13%);
+  --eerie-black-2: hsl(0, 0%, 15%);
+  --eerie-black-3: hsl(228, 10%, 10%);
+  --raisin-black: hsl(220, 8%, 14%);
+  --granite-gray: hsl(0, 0%, 38%);
+  --sonic-silver: hsl(0, 0%, 47%);
+  
+  --baby-powder: hsl(86, 41%, 97%);
+  --platinum: hsl(0, 0%, 91%);
+  --cultured: hsl(0, 0%, 94%);
+  --jet: hsl(0, 0%, 18%);
+  --pistachio_50: hsla(86, 45%, 54%, 0.5);
+
+  
+
+  --light-gray: hsl(0, 0%, 80%);
+  --pistachio: hsl(86, 45%, 54%);
+  --silver-chalice: hsl(231.92deg 19.25% 91.41% / 33%);
+  --black: hsl(0, 0%, 0%);
+  --white_10: hsla(0, 0%, 100%, 0.1);
+  --white_50: hsla(0, 0%, 100%, 0.5);
+  --white-60: hsla(0, 0%, 100%, 0.6);
+  --white: hsl(0, 0%, 100%);
+
+  /**
+   * typography
+   */
+
+  --ff-oswald: 'Oswald', sans-serif;
+  --ff-inter: 'Inter', sans-serif;
+  --ff-roboto: 'Roboto', sans-serif;
+
+  --fs-1: 1rem;
+  --fs-2: 1.2rem;
+  --fs-3: 1.4rem;
+  --fs-4: 1.5rem;
+  --fs-5: 1.6rem;
+  --fs-6: 1.8rem;
+  --fs-7: 2rem;
+  --fs-8: 2.2rem;
+  --fs-9: 2.5rem;
+  --fs-10: 3rem;
+
+  --fw-300: 300;
+  --fw-500: 500;
+  --fw-600: 600;
+  --fw-700: 700;
+
+  /**
+   * shadow
+   */
+
+  --card-shadow: 0 5px 20px -8px hsla(0, 0%, 0%, 0.15);
+}
+
+
+/*-----------------------------------*\
+  #RESET
+\*-----------------------------------*/
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li { list-style: none; }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  background: none;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+}
+
+html {
+  font-family: var(--ff-roboto);
+  color: var(--granite-gray);
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--white);
+  font-size: 1.6rem;
+  line-height: 1.8;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar { width: 1.3rem; }
+
+::-webkit-scrollbar-track { background-color: hsl(0, 0%, 95%); }
+
+::-webkit-scrollbar-thumb { background-color: var(--pistachio); }
+
+main {
+  position: relative;
+}
+
+@media only screen and (max-width: 1200px){
+  html {
+    font-size: 9px;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  html {
+    font-size: 8px;
+  }
+}
+
+@media only screen and (max-width: 620px){
+  html {
+    font-size: 7px;
+  }
+}
+
+
+@media only screen and (max-width: 355px){
+  html {
+    font-size: 5px;
+  }
+} 
+
+@media only screen and (max-width: 255px){
+  html {
+    font-size: 4px;
+  }
+} 
+
+
+
+

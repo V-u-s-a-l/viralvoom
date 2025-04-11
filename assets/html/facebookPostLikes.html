@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../css/nav.css" />
+    <link rel="stylesheet" href="../css/popup.css" />
+    <link rel="stylesheet" href="../css/root.css" />
+    <link rel="stylesheet" href="../css/services.css">
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <nav>
+        <div class="nav__logo">
+          <img class="nav__logo--img" src="" alt="" />
+        </div>
+
+        <div class="nav__list">
+          <div class="nav__list--item">
+            <a href="http://127.0.0.1:5500/index.html" class="nav__list--link">Home</a>
+          </div>
+
+          <div class="nav__list--item instagram__service">
+            <a href="#"  class="nav__list--link">Instagram Services</a>
+
+            <i class="fa-solid fa-chevron-down"></i>
+            <div class="nav__sub--menu">
+              <ul class="sub__list">
+                <li  class="sub__item"><a href="http://127.0.0.1:5500/assets/html/instagramFollowers.html">Get Instagram Followers</a></li>
+                <li  class="sub__item"><a href="http://127.0.0.1:5500/assets/html/instagramLikes.html">Get Instagram Likes</a></li>
+                <li  class="sub__item"><a href="http://127.0.0.1:5500/assets/html/instagramViews.html">Get Instagram Views</a></li>
+                <li  class="sub__item">
+                  <a href="http://127.0.0.1:5500/assets/html/instagramComents.html">Get Instagram Comments</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="nav__list--item tiktok__service">
+            <a href="#" class="nav__list--link">Tiktok Services</a>
+            <i class="fa-solid fa-chevron-down"></i>
+            <div class="nav__sub--menu">
+              <ul class="sub__list">
+                <li class="sub__item"><a href="http://127.0.0.1:5500/assets/html/tiktokFollowers.html">Get Tiktok Followers</a></li>
+                <li class="sub__item"><a href="http://127.0.0.1:5500/assets/html/tiktokLikes.html">Get Tiktok Likes</a></li>
+                <li class="sub__item"><a href="http://127.0.0.1:5500/assets/html/tiktokViews.html">Get Tiktok Views</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="nav__list--item facebook__service">
+            <a href="#" class="nav__list--link">Facebook Services</a>
+            <i class="fa-solid fa-chevron-down"></i>
+            <div class="nav__sub--menu">
+              <ul class="sub__list">
+                <li class="sub__item">
+                  <a href="http://127.0.0.1:5500/assets/html/facebookFollowers.html">Get Facebook Page Followers</a>
+                </li>
+                <li class="sub__item">
+                  <a href="http://127.0.0.1:5500/assets/html/facebookLikes.html">Get Facebook Page Likes</a>
+                </li>
+                <li class="sub__item">
+                  <a href="http://127.0.0.1:5500/assets/html/facebookPostLikes.html">Get Facebook Post Likes</a>
+                </li>
+                <li class="sub__item"><a href="http://127.0.0.1:5500/assets/html/facebookViews.html">Get Facebook Views</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="nav__list--item">
+            <a href="http://127.0.0.1:5500/assets/html/coins.html" class="nav__list--link">Buy Coins</a>
+          </div>
+        </div>
+
+        <button class="nav__login--button">Log In</button>
+
+        <div class="nav__bar">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+
+    <!-- HEADER -->
+
+    <!-- MAIN -->
+
+    <main>
+      <div class="popup">
+        <div class="popup__box">
+          <div class="login__box popup__card">
+            <div class="login__name">
+              <h2>Sign in</h2>
+            </div>
+            <div class="popup__close">
+              <img src="../images/cancel.png" alt="" />
+            </div>
+            <div class="new__user">
+              <p>New to our website? <span>Create a FREE account</span></p>
+            </div>
+            <form class="login__form">
+              <label>
+                <p>Email</p>
+                <input type="email" placeholder="example@mail.com" value="" />
+              </label>
+              <label>
+                <p>Password</p>
+                <input type="password" placeholder="" value="" />
+              </label>
+              <a class="forgot__password">
+                Forgot Password
+              </a>
+              <button class="login__button" type="submit">SIGN IN</button>
+            </form>
+          </div>
+
+          <div class="popup__card new__account">
+            <div class="login__name">
+              <h2>Sign Up</h2>
+            </div>
+            <div class="popup__close">
+              <img src="../images/cancel.png" alt="" />
+            </div>
+            <div class="already__user">
+              <p>Already have an account?  <span>SIGN IN</span></p>
+            </div>
+            <form class="new__account--form login__form">
+              <div class="create__account-name">
+                <label>
+                  <p>Name</p>
+                  <input type="text" placeholder="John/Jane" value="">
+                </label>
+                <label>
+                  <p>Surname</p>
+                  <input type="text" placeholder="Smith" value="">
+                </label>
+              </div>
+              <label>
+                <p>Email</p>
+                <input type="email" placeholder="example@mail.com" value="">
+              </label>
+              <label>
+                <p>Password</p>
+                <input type="password" placeholder="" value="">
+              </label>
+              <div class="password-strength-meter-register">
+                <div class="meter-register  "></div>
+                <div class="meter-register  "></div>
+                <div class="meter-register  "></div>
+                <div class="meter-register  "></div>
+                <div class="meter-register  "></div>
+              </div>
+              <div class="password-message-register">
+                Minimum 8 characters including uppacase, lowercase letters, numbers and symbols
+              </div>
+              <label>
+                <p>Confirm Password</p>
+                <input type="password" placeholder="" value="">
+              </label>
+              <label class="checkbox__input">
+                <input type="checkbox">
+                <span>
+                  I agree to
+                  <a href="#" target="_blank">terms and conditions.</a>
+                </span>
+              </label>
+
+              <button class="login__button" type="submit">SIGN UP</button>
+          </div>
+
+          <div class="popup__card forgot">
+            <div class="login__name">
+              <h2>Forgot Password</h2>
+            </div>
+            <div class="popup__close">
+              <img src="../images/cancel.png" alt="" />
+            </div>
+            <div class="login__form">
+              <label>
+                <p>Email</p>
+                <input type="email" placeholder="example@mail.com" value="" />
+              </label>
+              <a href="#" class="login__button forgot__button" type="submit">CONFIRM</a>
+            </div>
+          </div>
+
+          <div class="popup__card popup__verify">
+            <div class="popup__close">
+              <img src="../images/cancel.png" alt="" />
+            </div>
+           <div class="popup__verify--box">
+            <h2 class="verify__title">Verify Your Identity</h2>
+            <p class="verify__text">We’ve sent a text message to</p>
+           </div>
+           <form class="popup__verify--form" action="#">
+            <div class="verify__form--inputs">
+            <input type="number" class="verify__form--input" />
+            <input type="number" class="verify__form--input" disabled/>
+            <input type="number" class="verify__form--input" disabled/>
+            <input type="number" class="verify__form--input" disabled/>
+            <input type="number" class="verify__form--input" disabled/>
+            <input type="number" class="verify__form--input" disabled/>
+            </div>
+            <p class="verify__form--text">Enter the 6-digit MFA Code</p>
+            <button id="verify-button" type="submit" class="verify__form--button">Verify</button>
+           </form>
+          </div>
+        </div>
+      </div>
+      
+      <section class="post__likes--facebook">
+        <div class="services">
+            <h4 class="services__title">Real Facebook Post Likes</h4>
+            <div class="services__box">
+              <div class="card">
+                <div class="card__header">
+                  <p class="card__header--title">Special Pack</p>
+                </div>
+                <div class="card__main">
+                  <p class="card__price">
+                    <span>30$</span>
+                  </p>
+                  <ul class="card__list">
+                    <li>
+                      <i class="fa-solid fa-circle-check"></i>
+                      <span>Lorem ipsum dolor sit amet.</span>
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-circle-check"></i>
+                      <span>Lorem ipsum dolor sit amet.</span>
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-circle-check"></i>
+                      <span>Lorem ipsum dolor sit amet.</span>
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-circle-check"></i>
+                      <span>Lorem ipsum dolor sit amet.</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="card__button">
+                  <button>Order Now</button>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card__header">
+                  <p class="card__header--title">Special Pack</p>
+                </div>
+                <div class="card__main">
+                  <p class="card__price">
+                    <span>30$</span>
+                  </p>
+                  <ul class="card__list">
+                    <li>
+                      <i class="fa-solid fa-circle-check"></i>
+                      <span>Lorem ipsum dolor sit amet.</span>
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-circle-check"></i>
+                      <span>Lorem ipsum dolor sit amet.</span>
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-circle-check"></i>
+                      <span>Lorem ipsum dolor sit amet.</span>
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-circle-check"></i>
+                      <span>Lorem ipsum dolor sit amet.</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="card__button">
+                  <button>Order Now</button>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card__header">
+                  <p class="card__header--title">Special Pack</p>
+                </div>
+                <div class="card__main">
+                  <p class="card__price">
+                    <span>30$</span>
+                  </p>
+                  <ul class="card__list">
+                    <li>
+                      <i class="fa-solid fa-circle-check"></i>
+                      <span>Lorem ipsum dolor sit amet.</span>
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-circle-check"></i>
+                      <span>Lorem ipsum dolor sit amet.</span>
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-circle-check"></i>
+                      <span>Lorem ipsum dolor sit amet.</span>
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-circle-check"></i>
+                      <span>Lorem ipsum dolor sit amet.</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="card__button">
+                  <button>Order Now</button>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card__header">
+                  <p class="card__header--title">Special Pack</p>
+                </div>
+                <div class="card__main">
+                  <p class="card__price">
+                    <span>30$</span>
+                  </p>
+                  <ul class="card__list">
+                    <li>
+                      <i class="fa-solid fa-circle-check"></i>
+                      <span>Lorem ipsum dolor sit amet.</span>
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-circle-check"></i>
+                      <span>Lorem ipsum dolor sit amet.</span>
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-circle-check"></i>
+                      <span>Lorem ipsum dolor sit amet.</span>
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-circle-check"></i>
+                      <span>Lorem ipsum dolor sit amet.</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="card__button">
+                  <button>Order Now</button>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card__header">
+                  <p class="card__header--title">Special Pack</p>
+                </div>
+                <div class="card__main">
+                  <p class="card__price">
+                    <span>30$</span>
+                  </p>
+                  <ul class="card__list">
+                    <li>
+                      <i class="fa-solid fa-circle-check"></i>
+                      <span>Lorem ipsum dolor sit amet.</span>
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-circle-check"></i>
+                      <span>Lorem ipsum dolor sit amet.</span>
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-circle-check"></i>
+                      <span>Lorem ipsum dolor sit amet.</span>
+                    </li>
+                    <li>
+                      <i class="fa-solid fa-circle-check"></i>
+                      <span>Lorem ipsum dolor sit amet.</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="card__button">
+                  <button>Order Now</button>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+    </main>
+
+    <!-- MAIN -->
+
+    <script src="../js/nav.js"></script>
+    <script src="../js/popup.js"></script>
+  </body>
+</html>
