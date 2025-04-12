@@ -8,31 +8,17 @@
    * colors
    */
 
-  --bright-yellow-crayola: hsl(40, 100%, 50%);
-  --medium-turquoise: hsl(172, 48%, 59%);
- 
-  --eerie-black-1: hsl(0, 0%, 13%);
-  --eerie-black-2: hsl(0, 0%, 15%);
-  --eerie-black-3: hsl(228, 10%, 10%);
-  --raisin-black: hsl(220, 8%, 14%);
+
+  
+
   --granite-gray: hsl(0, 0%, 38%);
-  --sonic-silver: hsl(0, 0%, 47%);
-  
-  --baby-powder: hsl(86, 41%, 97%);
-  --platinum: hsl(0, 0%, 91%);
-  --cultured: hsl(0, 0%, 94%);
-  --jet: hsl(0, 0%, 18%);
-  --pistachio_50: hsla(86, 45%, 54%, 0.5);
-
-  
-
   --light-gray: hsl(0, 0%, 80%);
   --pistachio: hsl(86, 45%, 54%);
   --silver-chalice: hsl(231.92deg 19.25% 91.41% / 33%);
   --black: hsl(0, 0%, 0%);
   --white_10: hsla(0, 0%, 100%, 0.1);
-  --white_50: hsla(0, 0%, 100%, 0.5);
-  --white-60: hsla(0, 0%, 100%, 0.6);
+  --white_50: hsla(0, 0%, 72%, 0.5);
+  --white-60: hsla(0, 0%, 92%, 0.675);
   --white: hsl(0, 0%, 100%);
 
   /**

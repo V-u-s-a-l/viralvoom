@@ -86,7 +86,7 @@
     }
 }
 
-.card__button button {
+.card__button a {
     background-color: var(--pistachio);
     padding: 1rem 1.5rem;
     font-size: var(--fs-5);
